@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     // MARK: param
     private var index = 0
     private let imageArray = [
+        "000019",
         "FH000001",
         "FH000002",
         "FH000012"
@@ -54,11 +55,10 @@ class ViewController: UIViewController {
         }
     }
     
-    
     // MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        photo.image = UIImage(named: "FH000001")
+        photo.image = UIImage(named: imageArray[index])
     }
     
     // MARK: Feature
@@ -77,6 +77,15 @@ class ViewController: UIViewController {
     @objc private func autoImageFetcher (_ timer: Timer) {
         // 前へ進む固定
         fetchImage(isIncrement: true)
+    }
+    
+    // MARK: Segue
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc: SlideViewController = segue.destination as! SlideViewController
+        vc.imageName = imageArray[index]
     }
 }
 

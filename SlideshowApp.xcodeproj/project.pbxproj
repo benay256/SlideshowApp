@@ -13,6 +13,7 @@
 		8FA510EE26CBC8C000F53C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA510EC26CBC8C000F53C9E /* Main.storyboard */; };
 		8FA510F026CBC8C300F53C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA510EF26CBC8C300F53C9E /* Assets.xcassets */; };
 		8FA510F326CBC8C300F53C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA510F126CBC8C300F53C9E /* LaunchScreen.storyboard */; };
+		8FA510FC26CC05EC00F53C9E /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA510FB26CC05EB00F53C9E /* SlideViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8FA510EF26CBC8C300F53C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FA510F226CBC8C300F53C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FA510F426CBC8C300F53C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA510FB26CC05EB00F53C9E /* SlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8FA510E626CBC8C000F53C9E /* AppDelegate.swift */,
 				8FA510E826CBC8C000F53C9E /* SceneDelegate.swift */,
 				8FA510EA26CBC8C000F53C9E /* ViewController.swift */,
+				8FA510FB26CC05EB00F53C9E /* SlideViewController.swift */,
 				8FA510EC26CBC8C000F53C9E /* Main.storyboard */,
 				8FA510EF26CBC8C300F53C9E /* Assets.xcassets */,
 				8FA510F126CBC8C300F53C9E /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FA510FC26CC05EC00F53C9E /* SlideViewController.swift in Sources */,
 				8FA510EB26CBC8C000F53C9E /* ViewController.swift in Sources */,
 				8FA510E726CBC8C000F53C9E /* AppDelegate.swift in Sources */,
 				8FA510E926CBC8C000F53C9E /* SceneDelegate.swift in Sources */,

@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="88.392857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Slide View Controller-->
         <scene sceneID="ELM-6W-zRX">
             <objects>
-                <viewController id="qPs-sD-TE2" sceneMemberID="viewController">
+                <viewController id="qPs-sD-TE2" customClass="SlideViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jeE-f6-bP6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -115,6 +115,9 @@
                                     <constraint firstAttribute="height" constant="64" id="9cK-4V-fmu"/>
                                 </constraints>
                                 <state key="normal" image="navigation_back"/>
+                                <connections>
+                                    <segue destination="HUB-K4-rVf" kind="unwind" unwindAction="unwind:" id="vZ5-bT-lkV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8Tb-tK-PqQ"/>
@@ -131,8 +134,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jUf-I6-HY5"/>
+                    <connections>
+                        <outlet property="imageView" destination="noB-Iv-TNa" id="OyB-PR-4M1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZZM-jH-htr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="HUB-K4-rVf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1192.753623188406" y="91.741071428571431"/>
         </scene>
