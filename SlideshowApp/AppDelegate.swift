@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SlideshowApp
 //
-//  Created by skull825nabe on 2021/08/17.
+
 //
 
 import UIKit
